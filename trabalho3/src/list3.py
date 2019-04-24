@@ -40,7 +40,7 @@ print('Depois de ordenado: ')
 quickSort(data, 0, size - 1)
 print(data)
 end_time = timer()
-quicktime = (end_time - start_time)*3.6*100
+quicktime = (end_time - start_time)
 print('------------------------------------\n')
 print('Tempo = %f sec\n' % quicktime)
 
@@ -57,7 +57,7 @@ print('Depois de ordenado: ')
 s = shellSort(data)
 print(s)
 end_time = timer()
-shelltime = (end_time - start_time)*3.6*100
+shelltime = (end_time - start_time)
 print('------------------------------------\n')
 print('Tempo = %f sec\n' % shelltime)
 
@@ -74,7 +74,7 @@ print('------------------------------------\n')
 print('Depois de ordenado: ')
 print(b)
 end_time = timer()
-buckettime = (end_time - start_time)*3.6*100
+buckettime = (end_time - start_time)
 print('------------------------------------\n')
 print('Tempo = %f sec\n' % buckettime)
 
